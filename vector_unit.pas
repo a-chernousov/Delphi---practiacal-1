@@ -1,17 +1,9 @@
-unit vector_unit;
+﻿unit vector_unit;
 
 interface
   uses
     Tdata_unit;
-{
-const
-  nMax = 10;
-  arrMax = 100;
-Type
-  Tarr = array[1..arrMax] of real;
-  Tmatr = array[1..nMax] of Tarr;
-  Tfunc = function (var arr : Tarr; n : integer) : real;
-}
+
   procedure createVector(var matr : Tmatr; n, m : integer; fn : Tfunc; var vec : Tarr);
   procedure printVector(var fOut : TextFile; var arr : Tarr; n : integer);
   function SumaElementovKv(var arr : Tarr; n : integer) : real;
