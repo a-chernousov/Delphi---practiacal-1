@@ -10,10 +10,6 @@ Type
   Tmatr = array[1..nMax] of Tarr;
   Tfunc = function (var arr : Tarr; n : integer) : real;
 
-var
-  s1 : string;
-  f1, f2 : TextFile;
-  n, m, count : integer;
 
 implementation
 

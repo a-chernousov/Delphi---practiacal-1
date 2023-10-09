@@ -1,4 +1,4 @@
-﻿unit vector_unit;
+unit vector_unit;
 
 interface
   uses
@@ -15,6 +15,7 @@ uses
    SysUtils,
   Windows,
   Math;
+  //Tdata_unit;
 
 function SumaElementovKv(var arr : Tarr; n : integer) : real;
 var

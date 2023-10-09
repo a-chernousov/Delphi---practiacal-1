@@ -9,6 +9,12 @@ uses
   //vector_unit in 'vector_unit.pas',
   //array_unit in 'array_unit.pas',
   PutRez_unit in 'PutRez_unit.pas';
+
+var
+  s1 : string;
+  f1, f2 : TextFile;
+  n, m, count : integer;
+
 begin
   SetConsoleCP(1251);
   SetConsoleOutPutCP(1251);
